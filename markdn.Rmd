@@ -1,22 +1,29 @@
-library(knitr)
-library(markdown)
 
-# R language de in github
+# R language sagarmuchulwar
+
+## Adding two numbers
 
 ```{r}
+a<-23;
+b<-55;
+```
 
-a<-23
-b<-55
-c<-a+b
-print(c)
+## Display Result.
+The sum of two numbers **'r a`** and **`r b`** is **`r c`**
+```{r}
+c<-a+b;
+print(c);
+```
 
+# Features of iris Data
+## Displaying head and tail of iris data.
+
+```{r}
 head(iris)
-
 tail(iris)
+```
 
-## Iris Charts
-
-
-plot(iris, col=1:3);
-
-'''
+## plot of iris data
+```{r}
+plot(iris)
+```
